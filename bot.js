@@ -1342,9 +1342,6 @@ client.on('message', message=>{
     }
 });
 
-bot.on("message", function(message) {
-    if (message.author.equals(bot.user)) return;
-
 
        if(message.content ===("باك")){
           message.channel.send('وِلْكُمْ يْا عَسَلْ');
@@ -1365,7 +1362,6 @@ bot.on("message", function(message) {
               if(message.content ===("عقرب")){
                  message.channel.send(':heart:️ عيون وقلب العقرب اذا فاضي بيرد عليك:heart:️
 
-');
 
                                                     }
               if(message.content ===(".")){
@@ -1374,7 +1370,6 @@ bot.on("message", function(message) {
               if(message.content ===("العقرب")){
                  message.channel.send(':heart:️ عيون وقلب العقرب اذا فاضي بيرد عليك:heart:️
 
-');
 
 				      } 
 
