@@ -1341,6 +1341,50 @@ client.on('message', message=>{
             }
     }
 });
+var bot = new Discord.Client();
+
+bot.on("ready", function() {
+   console.log("Ready");   
+});
+
+bot.on("message", function(message) {
+    if (message.author.equals(bot.user)) return;
+
+
+       if(message.content ===("باك")){
+          message.channel.send('وِلْكُمْ يْا عَسَلْ');
+          }
+           if(message.content ===("برب")){
+          message.channel.send('تِيْت يْا عَسَل');
+             }
+              if(message.content ===("رابط")){
+                 message.channel.send('https://discord.gg/eMGVwtw');
+                    }
+              if(message.content ===("الرابط")){
+                 message.channel.send('https://discord.gg/eMGVwtw');
+                                     }
+              if(message.content ===("السلام عليكم")){
+                 message.channel.send('وعليكم السلام نورت ♥');
+
+                                           }
+              if(message.content ===("عقرب")){
+                 message.channel.send(':heart:️ عيون وقلب العقرب اذا فاضي بيرد عليك:heart:️
+
+');
+
+                                                    }
+              if(message.content ===(".")){
+                 message.channel.send('يلبى الي ينقط ♥');
+
+              if(message.content ===("العقرب")){
+                 message.channel.send(':heart:️ عيون وقلب العقرب اذا فاضي بيرد عليك:heart:️
+
+');
+
+				      } 
+
+    });
+
 
 
 client.login(process.env.BOT_TOKEN);
