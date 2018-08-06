@@ -91,7 +91,7 @@ Fire bot
 『a!ping / يعرض لك سرعه اتصال البوت』
 『a!uptime / يعرض لك صار للبوت كم شغال』
 『a!support / سيرفر الدعم القني و المساعده』
-『a!invite / اضافه البوت』
+『رابط / رابط』
 『a!members / حاله الاعضاء』
 『a!bot / معلومات عن البوت』
 **
@@ -852,7 +852,7 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription(" ***welcome To server support*** " + `
  **
-رابط السيرفر |https://discord.gg/Fqpqd8x
+رابط السيرفر |https://discord.gg/gESZ8th
  **
 `);
   message.author.sendEmbed(embed);
