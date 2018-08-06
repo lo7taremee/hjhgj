@@ -27,7 +27,7 @@ client.user.setGame(`Comeing Soon `,"http://twitch.tv/S-F")
   console.log('')
 });
 client.on("message", message => {
- if (message.content === "@Azhelp") {
+ if (message.content === "@Az help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -52,7 +52,7 @@ message.author.sendEmbed(embed)
  
  
 client.on("message", message => {
- if (message.content === "@Azhelp") {
+ if (message.content === "@Az help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
