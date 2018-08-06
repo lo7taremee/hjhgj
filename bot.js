@@ -835,7 +835,7 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription("Add me" + `
  **
-رابط البوت | https://discordapp.com/oauth2/authorize?permissions=2146950391&scope=bot&client_id=468335086094254095
+هذا الامر مغلق
  **
 `);
   message.author.sendEmbed(embed);
@@ -845,7 +845,7 @@ client.on("message", (message) => {
 
   client.on('message' , message => {
 
-    if (message.content === "a!support") {
+    if (message.content === "الرابط") {
         if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
      const embed = new Discord.RichEmbed()
  .setColor("RANDOM")
