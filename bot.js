@@ -845,7 +845,7 @@ client.on("message", (message) => {
 
   client.on('message' , message => {
 
-    if (message.content === "الرابط") {
+    if (message.content === "رابط") {
         if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
      const embed = new Discord.RichEmbed()
  .setColor("RANDOM")
