@@ -850,10 +850,10 @@ client.on("message", (message) => {
  .setColor("RANDOM")
  .setThumbnail(client.user.avatarURL)     
  .setDescription(" ***welcome To server support*** " + `
- **
+
 تفضل رابط السيرفر
 https://discord.gg/NDGppsk
- **
+
 `);
   message.author.sendEmbed(embed);
    }
