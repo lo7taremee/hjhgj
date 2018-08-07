@@ -89,8 +89,6 @@ Fire bot
 **
 『+bvping / يعرض لك سرعه اتصال البوت』
 『+bvuptime / يعرض لك صار للبوت كم شغال』
-『+bvsupport / سيرفر الدعم القني و المساعده』
-『رابط / رابط』
 『+bvmembers / حاله الاعضاء』
 『+bvbot / معلومات عن البوت』
 **
@@ -841,20 +839,6 @@ client.on("message", (message) => {
    }
 });
 
-
-  client.on('message' , message => {
-
-    if (message.content === "رابط") {
-        if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
-     const embed = new Discord.RichEmbed()
- .setColor("RANDOM")
- .setThumbnail(client.user.avatarURL)     
- .setDescription(" ***welcome To server support*** " + `
-
-تفضل رابط السيرفر
-https://discord.gg/NDGppsk
-
-`);
 var prefix = "+bv";
 
 client.on('message', message => {
