@@ -855,10 +855,6 @@ client.on("message", (message) => {
 https://discord.gg/NDGppsk
 
 `);
-  message.author.sendEmbed(embed);
-   }
-});
-
 var prefix = "+bv";
 
 client.on('message', message => {
