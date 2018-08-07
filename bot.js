@@ -839,8 +839,6 @@ client.on("message", (message) => {
    }
 });
 
-});
-
 //اوامر اداريه//
 
 const ms = require("ms");
