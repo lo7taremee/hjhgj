@@ -851,7 +851,8 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription(" ***welcome To server support*** " + `
  **
-رابط السيرفر |https://discord.gg/gESZ8th
+تفضل رابط السيرفر
+https://discord.gg/NDGppsk
  **
 `);
   message.author.sendEmbed(embed);
